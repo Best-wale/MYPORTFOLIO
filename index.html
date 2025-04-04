@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>BEST IGBEKELE</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="dist2/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style/font.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style/main.css'>
+
+    </head>
+
+    <body>
+        <div class="container  main">
+            <div class="row d-flex flex-row justify-content-between mb-5 pt-3  position-relative  ">
+                <div class="col-10 col-sm-2  ">
+                    <h1 class="logo">B<span>.</span></h1>
+                </div>
+                <div class=" d-none d-lg-flex d-md-flex d-sm-none col-lg-4 col-md-6 col-sm-1 row align-self-center   ">
+                    <li class="col-sm-1 col-md-3 col-lg-3  "><a class="nav-element active " id="home"
+                            onclick="Page('home.html')">Home</a>
+                    </li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element" id="about"
+                            onclick="Page('about.html')">About</a>
+                    </li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element " id="work"
+                            onclick="Page('work.html')">Work</a>
+                    </li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element" id="contact"
+                            onclick="Page('contact.html')">Contact</a></li>
+
+
+
+                </div>
+                <div class=" d-flex d-lg-none d-md-none d-sm-flex col-2 col-sm-2 align-self-center"><i
+                        onclick="click_item()" id="menu" class="bi bi-text-indent-left"></i></div>
+
+
+                <div class="d-none d-lg-flex d-md-flex  d-sm-none col-sm-2 align-self-center"><a
+                        onclick="Page('contact.html')" class="theme-btn" id="theme-btn">Let's
+                        talk</a></div>
+
+                <div id="small-item" class="small-item d-flex d-lg-none d-md-none">
+
+                    <ul class="d-flex  flex-column col-12 p-4">
+                        <li class="clo-12 col-sm-12  text-center mb-5"><a class="nav-element  active" id="home"
+                                onclick="Page('home.html')">Home</a>
+                        </li>
+                        <li class="clo-12 col-sm-12 text-center mb-5"><a class="nav-element " id="about"
+                                onclick="Page('about.html')">About</a>
+                        </li>
+                        <li class="clo-12 col-sm-12  text-center mb-5"><a class="nav-element" id="work"
+                                onclick="Page('work.html')">Work</a>
+                        </li>
+                        <li class="clo-12 col-sm-12  text-center mb-5"><a class="nav-element " id="contact"
+                                onclick="Page('contact.html')">Contact</a>
+                        </li>
+
+
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+            <div id="root"></div>
+            <footer class="breath d-flex flex-column justify-content-center mt-5 py-4">
+                <h1 class="align-self-center logo">B<span>.</span></h1>
+                <ul class="d-flex col-lg-4 align-self-center">
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element active"
+                            onclick="Page('home.html')">Home</a></li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element" onclick="Page('about.html')">About</a>
+                    </li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element" onclick="Page('work.html')">Work</a>
+                    </li>
+                    <li class="col-sm-1 col-md-3 col-lg-3"><a class="nav-element"
+                            onclick="Page('contact.html')">Contact</a></li>
+
+
+                </ul>
+                <p class="align-self-center pt-4 fs-5 active">copyright BEST</p>
+
+            </footer>
+        </div>
+
+        <script src='main.js'></script>
+
+    </body>
+
+
+</html>
