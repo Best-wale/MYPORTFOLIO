@@ -12,12 +12,12 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, Django
-- **Styling:** Bootstrap, Tailwind CSS
+- **Styling:** Bootstrap, css
 - **Version Control:** Git, GitHub
 
 ## How to Access
 
-Visit the live version of my portfolio at [Your Website URL]( https://best-wale.github.io/MYPORTFOLIO/).
+Visit the live version of my portfolio at [BEST IGBEKELE]( https://best-wale.github.io/MYPORTFOLIO/).
 
 ## Installation
 
