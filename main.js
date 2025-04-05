@@ -1,10 +1,17 @@
+
+
+
+
+
 window.addEventListener('load', function () {
+
+
     const elements = document.querySelectorAll('.breath');
+    console.log(elements)
     elements.forEach(element => {
         element.classList.add('loaded');
     });
 });
-
 
 
 function openMenu() {
@@ -34,10 +41,9 @@ function click_item() {
 
 function Getpage(name) {
     const hello = name;
+
     const filename = hello.split('.');
-    if (filename === 'contact') {
-        document.getElementById('contact').style.display = 'none';
-    }
+
     var links = document.querySelectorAll('.nav-element');
     links.forEach((link) => {
 
