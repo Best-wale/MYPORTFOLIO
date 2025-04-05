@@ -24,4 +24,4 @@ Visit the live version of my portfolio at [BEST IGBEKELE]( https://best-wale.git
 If you'd like to run the project locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/Best-wale/MYPORTFOLIO.git
